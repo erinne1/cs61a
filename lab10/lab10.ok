@@ -1,0 +1,24 @@
+{
+    "name": "Lab 10",
+    "endpoint": "cal/cs61a/su23/lab10",
+    "src": [
+        "lab10.scm"
+    ],
+    "tests": {
+        "tests/*.py": "ok_test"
+    },
+    "default_tests": [
+        "make_adder",
+        "composed",
+        "filter",
+        "exp"
+    ],
+    "protocols": [
+        "restore",
+        "file_contents",
+        "unlock",
+        "grading",
+        "analytics",
+        "backup"
+    ]
+}
