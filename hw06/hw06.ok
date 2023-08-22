@@ -1,0 +1,25 @@
+{
+    "name": "Homework 6",
+    "endpoint": "cal/cs61a/su23/hw06",
+    "src": [
+        "hw06.scm"
+    ],
+    "tests": {
+        "hw*.py": "doctest",
+        "tests/*.py": "ok_test"
+    },
+    "default_tests": [
+        "no_repeats",
+        "student_attend_class",
+        "teacher_hold_class",
+        "add-leaf"
+    ],
+    "protocols": [
+        "restore",
+        "file_contents",
+        "grading",
+        "analytics",
+        "unlock",
+        "backup"
+    ]
+}
