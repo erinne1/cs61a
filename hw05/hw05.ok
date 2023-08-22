@@ -1,0 +1,25 @@
+{
+    "name": "Homework 5",
+    "endpoint": "cal/cs61a/su23/hw05",
+    "src": [
+        "hw05.py"
+    ],
+    "tests": {
+        "hw*.py": "doctest",
+        "tests/*.py": "ok_test"
+    },
+    "default_tests": [
+        "Mint",
+        "add_d_leaves",
+        "store_digits",
+        "deep_map_mut"
+    ],
+    "protocols": [
+        "restore",
+        "file_contents",
+        "analytics",
+        "unlock",
+        "grading",
+        "backup"
+    ]
+}
