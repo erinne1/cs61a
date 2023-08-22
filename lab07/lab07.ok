@@ -1,0 +1,26 @@
+{
+    "name": "Lab 7",
+    "endpoint": "cal/cs61a/su23/lab07",
+    "src": [
+        "lab07.py"
+    ],
+    "tests": {
+        "lab*.py": "doctest",
+        "tests/*.py": "ok_test"
+    },
+    "default_tests": [
+        "iterators-wwpd",
+        "count_occurrences",
+        "amplify",
+        "sequence_gen",
+        "stair_ways"
+    ],
+    "protocols": [
+        "restore",
+        "file_contents",
+        "analytics",
+        "unlock",
+        "grading",
+        "backup"
+    ]
+}
