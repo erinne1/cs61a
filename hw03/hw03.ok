@@ -1,0 +1,24 @@
+{
+    "name": "Homework 3",
+    "endpoint": "cal/cs61a/su23/hw03",
+    "src": [
+        "hw03.py"
+    ],
+    "tests": {
+        "hw*.py": "doctest",
+        "tests/*.py": "ok_test"
+    },
+    "default_tests": [
+        "filter",
+        "deep_map_mut",
+        "has_path"
+    ],
+    "protocols": [
+        "restore",
+        "file_contents",
+        "analytics",
+        "unlock",
+        "grading",
+        "backup"
+    ]
+}
